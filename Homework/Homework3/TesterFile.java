@@ -6,7 +6,7 @@
  */
 
 class TesterFile {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws EmptyStackException{
         System.out.println("Testing my Queue class!");
         Queue theQueue = new Queue(5); // queue holds 5 items
         theQueue.insert(10); // insert 4 items
@@ -84,14 +84,14 @@ class TesterFile {
         myStack.push(12);
         System.out.println("Peeking at the first element of myStack: " + myStack.peek());
         System.out.println("Popping the first element from myStack: " + myStack.pop());
-        //System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+        System.out.println("Peeking at the first element of myStack: " + myStack.peek());
         System.out.println("Popping the first element from myStack: " + myStack.pop());
-        //System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+        System.out.println("Peeking at the first element of myStack: " + myStack.peek());
         System.out.println("Popping the first element from myStack: " + myStack.pop());
-        //System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+        System.out.println("Peeking at the first element of myStack: " + myStack.peek());
 
 
-        //System.out.println("\n\nThank you for executing my TesterFile.  I hope you will give me 100% :D \n");
+        System.out.println("\n\nThank you for executing my TesterFile.  I hope you will give me 100% :D \n");
 
     } // end main()
 } // end class QueueApp
