@@ -67,8 +67,31 @@ class TesterFile {
         circle.insert(15);
         circle.insert(17);
         circle.display(); //Prints the elements out in the reverse of order inserted
-        //circle.search(3);
-        //circle.search(6);
-        
+        circle.search(5);
+        circle.search(13);
+        circle.search(20);
+        circle.delete();
+        circle.delete();
+        System.out.println();
+
+
+
+        System.out.println("Testing out my Stack class!");
+        Stack myStack = new Stack();
+        myStack.push(4);
+        myStack.push(7);
+        myStack.push(20);
+        myStack.push(12);
+        System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+        System.out.println("Popping the first element from myStack: " + myStack.pop());
+        //System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+        System.out.println("Popping the first element from myStack: " + myStack.pop());
+        //System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+        System.out.println("Popping the first element from myStack: " + myStack.pop());
+        //System.out.println("Peeking at the first element of myStack: " + myStack.peek());
+
+
+        //System.out.println("\n\nThank you for executing my TesterFile.  I hope you will give me 100% :D \n");
+
     } // end main()
 } // end class QueueApp
