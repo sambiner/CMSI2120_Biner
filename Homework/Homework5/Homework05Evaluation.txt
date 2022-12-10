@@ -1,0 +1,79 @@
+
+Homework05 Evaluation
+======================
+
+scoring:
+=============================
+Tree Traverser
+   inOrderTraverser method implemented       [1 pt.]
+   2 test sets with at least minimal nodes   [2 pt.]
+   produces proper sequences                 [2 pt.]
+
+Priority Queue
+   Queue creation works correctly            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   isFull() works correctly                  [1 pt.]
+   isEmpty() works correctly                 [1 pt.]
+   removal() works correctly                 [1 pt.]
+   heap representation works correctly       [1 pt.]
+
+Linear Probing String Hasher
+   menu works [gimme, has to work if there]  [1 pt.]
+   shows contents                            [0.5 pt.]
+   hash table created correctly              [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Digit Folding Hasher
+   menu works [gimme, has to work if there]  [1 pt.]
+   shows contents                            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [2 pt.]
+
+Total possible is 30 points
+   27.5 out of 30 is 91.67% which is an A-minus
+-------------------------
+EVALUATION COMMENTS:
+
+Nice work on the BinaryHeap and BinaryTree!  I like the second test on the
+tree in which you use objects.  Good on ya.... Also like the excellent job
+on printing what's happening with the heap.  Very thorough!
+
+The HashApp has a little problem ~ I wasn't able to get it to display any
+values or the table contents.  When I enter a 'd' it just gives back a few
+blank lines.  The 'size' command works, so the insert and delete methods
+work, and 'get' returns the value I asked for.
+
+DigitFolding doesn't *quite* work like I expected, but it's close enough to
+what the exercise is looking for.
+
+One thing to remember: the convention [and actually the command line version
+of compilation at times] will barf if the file name and the class name and
+the constructor name don't start with uppercase letters.  I changed your
+file names and so on for you to make them comply with the convention.
+
+============================================================================
+progress on the semester so far:
+
+   homework01  100.00% of  5 points =  5.00 points
+   homework02   92.00% of  5 points =  4.60 points
+   homework03  105.71% of  5 points =  5.29 points
+   homework04  100.00% of  5 points =  5.00 points
+   homework05   91.67% of  5 points =  4.58 points
+             total homework points = 24.47 out of 25 = 97.88%
+                           which is an A-plus
+
+Nice job on the homework assignments for this semester!  It's been a great
+pleasure having you two in class.  :)
+
+
+
+
